@@ -1,0 +1,28 @@
+{
+  "name": "cronjobapi",
+  "version": "1.0.0",
+  "description": "cron job APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTFUL"
+  ],
+  "author": "ram mohan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bluebird": "^3.7.2",
+    "cron": "^1.7.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "nodemailer": "^6.4.2",
+    "request-promise": "^4.2.5",
+    "send-email": "^1.1.3",
+    "sendmail": "^1.6.1"
+  }
+}
